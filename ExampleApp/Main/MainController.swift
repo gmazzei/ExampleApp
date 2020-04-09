@@ -1,5 +1,5 @@
 //
-//  MainViewController.swift
+//  MainController.swift
 //  ExampleApp
 //
 //  Created by Gabriel Mazzei on 08/04/2020.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController, MainViewDelegate {
+class MainController: UIViewController, MainViewDelegate {
     
     private lazy var mainView: MainView = {
         let view = MainView()
@@ -29,7 +29,7 @@ class MainViewController: UIViewController, MainViewDelegate {
     // MARK: - MainViewDelegate
     
     func didTapCentralButton() {
-        let controller = DetailViewController()
+        let controller = DetailController()
         controller.modalPresentationStyle = .fullScreen
         present(controller, animated: true)
     }

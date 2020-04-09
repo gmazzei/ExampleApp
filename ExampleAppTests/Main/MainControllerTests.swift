@@ -1,5 +1,5 @@
 //
-//  MainViewControllerTests.swift
+//  MainControllerTests.swift
 //  ExampleAppTests
 //
 //  Created by Gabriel Mazzei on 09/04/2020.
@@ -9,7 +9,7 @@
 @testable import ExampleApp
 import FBSnapshotTestCase
 
-final class MainViewControllerTests: FBSnapshotTestCase {
+final class MainControllerTests: FBSnapshotTestCase {
     
     override func setUp() {
         super.setUp()
@@ -17,8 +17,8 @@ final class MainViewControllerTests: FBSnapshotTestCase {
         recordMode = false
     }
     
-    private func newController() -> MainViewController {
-        let controller = MainViewController()
+    private func newController() -> MainController {
+        let controller = MainController()
         controller.view.frame = UIScreen.main.bounds
         return controller
     }

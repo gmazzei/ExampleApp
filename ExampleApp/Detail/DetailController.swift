@@ -1,5 +1,5 @@
 //
-//  DetailViewController.swift
+//  DetailController.swift
 //  ExampleApp
 //
 //  Created by Gabriel Mazzei on 08/04/2020.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DetailViewController: UIViewController, DetailViewDelegate {
+class DetailController: UIViewController, DetailViewDelegate {
     
     private lazy var detailView: DetailView = {
         let view = DetailView()

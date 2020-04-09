@@ -1,5 +1,5 @@
 //
-//  DetailViewControllerTests.swift
+//  DetailControllerTests.swift
 //  ExampleAppTests
 //
 //  Created by Gabriel Mazzei on 09/04/2020.
@@ -9,7 +9,7 @@
 @testable import ExampleApp
 import FBSnapshotTestCase
 
-final class DetailViewControllerTests: FBSnapshotTestCase {
+final class DetailControllerTests: FBSnapshotTestCase {
     
     override func setUp() {
         super.setUp()
@@ -17,8 +17,8 @@ final class DetailViewControllerTests: FBSnapshotTestCase {
         recordMode = false
     }
     
-    private func newController() -> DetailViewController {
-        let controller = DetailViewController()
+    private func newController() -> DetailController {
+        let controller = DetailController()
         controller.view.frame = UIScreen.main.bounds
         return controller
     }
