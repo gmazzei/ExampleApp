@@ -1,5 +1,5 @@
 //
-//  DetailViewControllerTests.swift
+//  DetailViewUITests.swift
 //  ExampleAppUITests
 //
 //  Created by Gabriel Mazzei on 09/04/2020.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class DetailViewControllerTests: XCTestCase {
+class DetailViewUITests: XCTestCase {
 
     override func setUp() {
         super.setUp()

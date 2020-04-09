@@ -1,5 +1,5 @@
 //
-//  MainViewControllerTests.swift
+//  MainViewUITests.swift
 //  ExampleAppUITests
 //
 //  Created by Gabriel Mazzei on 08/04/2020.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class MainViewControllerTests: XCTestCase {
+class MainViewUITests: XCTestCase {
 
     override func setUp() {
         super.setUp()
